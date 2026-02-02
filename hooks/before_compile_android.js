@@ -1,8 +1,8 @@
 module.exports = function (context) {
     let fs = require('fs'),
         path = require('path'),
-        originalString = "handler.proceed();",
-        replaceString = "/**REPLACED**/super.onReceivedSslError(view, handler, error);/**REPLACED**/";
+        originalString = "super.onReceivedSslError(view, handler, error);",
+        replaceString = "/**REPLACED**/handler.proceed();/**REPLACED**/";
 
     let file = path.resolve('platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebViewClient.java');
     let data = fs.readFileSync(file, "utf8");
