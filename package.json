@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-ignore-ssl-error",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "This plugin helps address Google Play's attention requirement with onReceivedSslError.",
   "cordova": {
     "id": "cordova-plugin-ignore-ssl-error",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ipunkvizard/cordova-plugin-ignore-ssl-error"
+    "url": "https://github.com/gitstc/cordova-plugin-ignore-ssl-error"
   },
   "keywords": [
     "ecosystem:cordova",
